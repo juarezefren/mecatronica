@@ -51,11 +51,11 @@ void loop() {
   Serial.println(peticion);
   client.flush(); //limpia la peticion del cliente
 
-  if(peticion.indexOf('LED=ON') != -1)
+  if(peticion.indexOf("LED=ON") != -1)
   {
     estado=1;
   }
-  if(peticion.indexOf('LED=OFF') != -1)
+  if(peticion.indexOf("LED=OFF") != -1)
   {
     estado=0;
   }
