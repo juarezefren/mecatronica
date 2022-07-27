@@ -13,7 +13,7 @@ CREATE TABLE countries  (
 ;
 
 -- data 9 rows
-INSERT INTO Countries
+INSERT INTO countries
     (ISO3, CountryName, Capital, CurrencyCode)
 VALUES
     ('ARG', 'Argentina', 'Buenos Aires', 'ARS'),
